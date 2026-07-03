@@ -1,10 +1,11 @@
-# Hermes Token Dashboard
+# 📊 Hermes Token Dashboard
 
-Local token usage visualization for [Hermes Agent](https://hermes-agent.nousresearch.com) — zero-config, zero external Python dependencies.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Jokeyou/hermes-token-dashboard/pulls)
 
-Reads `~/.hermes/state.db` and serves a dark-themed dashboard with GitHub-style heatmap, trend charts, model breakdown, and cost analysis.
-
-![screenshot](https://img.shields.io/badge/status-working-brightgreen)
+> **零依赖 · 零配置 · 一键启动的 AI Token 用量看板。**
+>
+> 让每一次对话的成本，清清楚楚。
 
 ## Quick Start
 
@@ -59,6 +60,29 @@ hermes-token-dashboard/
 
 Layout and heatmap design inspired by [TokenTracker](https://github.com/mm7894215/TokenTracker) — stripped down to focus exclusively on Hermes Agent.
 
-## License
+## 🤝 一起开发！
 
-MIT
+> **让 AI 使用成本透明化，从本地工具开始。**
+
+欢迎对数据可视化、Python 或 AI 工具链感兴趣的朋友参与：
+
+| 方向 | 做什么 |
+|------|--------|
+| 📊 **可视化** | 新图表类型、导出报告（PDF/PNG） |
+| 🔧 **后端** | 支持更多 Agent 框架（Claude Code、OpenAI）、多数据库适配 |
+| 🎨 **前端** | Chart.js 主题优化、移动端适配 |
+| 📝 **文档** | 多语言翻译、部署教程 |
+
+```bash
+git checkout -b feature/your-feature
+git commit -m 'feat: add your feature'
+git push origin feature/your-feature
+```
+
+## 📄 License
+
+MIT © [Jokeyou](https://github.com/Jokeyou)
+
+---
+
+**⭐ 觉得有用就点个 Star！**
